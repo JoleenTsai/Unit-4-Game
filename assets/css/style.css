@@ -7,20 +7,24 @@ h1 {
     color: teal;
     font-size: 300%;
 }
-body {
-    background-image: url('../images/stripes-light.png')
+h2, h4 {
+    font-weight: bolder;
 }
-.container {
+.crystalGame {
+    background-image: url('../images/stripes-light.png');
+    font-family: 'Courier New', Courier, monospace;
+}
+.crystalContainer {
     margin-top: 20px;
     background-color: white;
 }
-.row {
+.gameRow {
         border: 2px dotted teal;
             display: flex;
             justify-content: center;
             padding-top: 15px;
 }
-.col-md-4 {
+.gameColumn {
     display: flex;
     justify-content: center;
 }
