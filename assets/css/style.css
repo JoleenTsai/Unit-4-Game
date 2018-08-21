@@ -1,4 +1,26 @@
 .crystal {
     height: 200px;
-    width: 175px;
+    width: 150px;
+}
+h1 {
+    font-family: 'Faster One', cursive;
+    color: teal;
+    font-size: 300%;
+}
+body {
+    background-image: url('../images/stripes-light.png')
+}
+.container {
+    margin-top: 20px;
+    background-color: white;
+}
+.row {
+        border: 2px dotted teal;
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+}
+.col-md-4 {
+    display: flex;
+    justify-content: center;
 }
